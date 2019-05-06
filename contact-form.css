@@ -1,0 +1,97 @@
+/*DEVELOPER: Alyssa Madarang, IS117-002, Spring 2019 */
+/* stylesheet for the contact form page */
+
+html {
+    margin: 0;
+}
+
+header {
+    positon: absolute;
+    margin: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+body {
+    padding-bottom: 8em;
+}
+.container {
+    width: 100%;
+}
+
+.contact-form {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#title {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+
+/* sticky footer */
+footer .navbar-fixed-bottom {
+    position: fixed;
+    background-color: white;
+    border-top: black solid 1px;
+    height: 5em;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .navbar-fixed-bottom p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    width:100%;
+}
+
+/* MEDIA QUERIES */
+
+/* tablet portrait */
+@media only screen and (max-width: 959px) {
+    .contact-form {
+        display: block;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* mobile landscape */
+@media only screen and (max-width: 767px) {
+    .contact-form {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #title {
+        font-size: 2.3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+}
+
+/* mobile portrait */
+@media only screen and (max-width: 479px) {
+    .contact-form {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #title {
+        font-size: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+}
+
