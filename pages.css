@@ -1,0 +1,121 @@
+/*DEVELOPER: Alyssa Madarang, IS117-002, Spring 2019 */
+/* stylesheet for the content pages */
+
+html {
+    margin: 0;
+}
+
+header {
+    positon: absolute;
+    margin: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+body {
+    padding-bottom: 8em;
+}
+.container {
+    width: 100%;
+}
+
+
+#content h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#content .content-description {
+    margin: auto;
+    display: block;
+    padding: 0 25% 3em 25%;
+}
+
+#images {
+    display: block;
+    margin: 0 20%;
+}
+
+
+
+
+/* sticky footer */
+footer .navbar-fixed-bottom {
+    position: fixed;
+    background-color: white;
+    border-top: black solid 1px;
+    height: 5em;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .navbar-fixed-bottom p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    width:100%;
+}
+
+/* MEDIA QUERIES */
+
+/* tablet portrait */
+@media only screen and (max-width: 959px) {
+
+    #content .content-description {
+        margin: auto;
+        display: block;
+        padding: 0 20% 3em 20%;
+    }
+
+}
+
+/* mobile landscape */
+@media only screen and (max-width: 767px) {
+
+
+    #content h1 {
+        font-size: 2.3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+
+
+    #content .content-description {
+        margin: auto;
+        display: block;
+        padding: 0 15% 3em 15%;
+    }
+
+    #images {
+        display: block;
+        margin: 0 15%;
+    }
+
+}
+
+/* mobile portrait */
+@media only screen and (max-width: 479px) {
+
+    #content h1 {
+        font-size: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+    #content .content-description {
+        font-size: 0.9em;
+        margin: auto;
+        display: block;
+        padding: 0 10% 3em 10%;
+    }
+
+    #images {
+        display: block;
+        margin: 0 10%;
+    }
+
+
